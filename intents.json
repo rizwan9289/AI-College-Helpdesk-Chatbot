@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! Welcome to the college helpdesk.", "Hi! How can I help you today?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How to take admission",
+        "Admission process",
+        "How can I apply",
+        "College admission details"
+      ],
+      "responses": [
+        "You can apply for admission through the college website or admission office.",
+        "Admissions are open through the official college portal."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure",
+        "College fees",
+        "How much is tuition fee"
+      ],
+      "responses": [
+        "The fee structure depends on the course. Please check the college website.",
+        "You can get fee details from the accounts office."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available",
+        "List of courses",
+        "Which programs do you offer"
+      ],
+      "responses": [
+        "Our college offers B.Tech, BBA, BCA, and other programs.",
+        "You can check the courses section on the college website."
+      ]
+    }
+  ]
+}
